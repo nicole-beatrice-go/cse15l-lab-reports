@@ -124,6 +124,7 @@ Make sure that it is bash by looking at the + icon on the top right of your term
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
+Password:
 ```
 
 > FYI: It's okay to say yes because it's a new server. But if you get this message to a server you go to a lot, then someone might be trying to get to your connection to the server.
