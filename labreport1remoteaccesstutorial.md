@@ -7,8 +7,8 @@ This means that you'll be able to connect to a computer in the CSE basement and 
 
 This tutorial will be split up into 3 parts:
 1. **Installing VS Code** (this is the code editor that you will use and run commands on within its terminal)
-2. **Remotely Connecting** (this is where you connect to a computer in the CSE basement)
-3. **Trying Commands** (this is where you can run commands (can be on your own computer or the remote computer you're connected to) to navigate the FileSystem)
+2. **Remotely Connecting** (this is where you can connect to a computer in the CSE basement through network connection, the important of this will be clarified later)
+3. **Trying Commands** (this is where you can run commands to navigate the FileSystem, which can be on your own computer or the remote computer you are connected to)
 
 ---
 ## Installing VS Code
