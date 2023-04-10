@@ -30,7 +30,7 @@ This is the Visual Studio Code Website: [VS Website](https://code.visualstudio.c
 
 If you have a Mac, download the macOS version. If you have a PC, download the Windows version. The screen to download should look like this. 
 
-![Image](Screen%202023-04-09%20at%204.11.09%20PM.png)
+![Image](Screen%20Shot%202023-04-09%20at%204.11.09%20PM.png)
 
 If you have Windows, you simply just need to run the installer. Then, VS Code should be under `C:\Users\{Username}\AppData\Local\Programs\Microsoft VS Code`.
 
