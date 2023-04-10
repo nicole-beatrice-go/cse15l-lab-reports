@@ -43,7 +43,7 @@ Click on the browser download at the bottom of your screen. Then, you will see i
 
 If it is archived in a zip, simply double click on the zip to extract its contents. 
 
-[Image](Screen Shot 2023-04-09 at 4.16.29 PM.png)
+[Image](Screen&nbsp;Shot&nbsp;2023-04-09&nbsp;at&nbsp;4.16.29&nbsp;PM.png)
 
 [Image](Screen Shot 2023-04-09 at 4.18.40 PM.png)
 
