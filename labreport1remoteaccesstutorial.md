@@ -146,7 +146,10 @@ You should have a terminal that looks something like this afterwards
 This means that you're now connected to your remote computer! Yay! Now you can run commands!
 
 > FYI: The computer you are currently on is the *client* while the remote computer you are conected to in the CSE basement is the *server*.
+
+
 ---
+
 ## Trying Commands
 Finally, you can run some commands!
 
