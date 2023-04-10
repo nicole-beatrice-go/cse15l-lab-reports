@@ -150,7 +150,7 @@ This means that you're now connected to your remote computer! Yay! Now you can r
 ## Trying Commands
 Finally, you can run some commands!
 
-Here's a brief rundown of what each command does.
+Here's a brief rundown of what each command does:
 
 * `cat <path1><path2>` : (means concatenate) prints out the contents of the files within the given paths
 * `ls <path>` : (means list) lists the files and folders of the path
@@ -160,7 +160,7 @@ Here's a brief rundown of what each command does.
 > FYI: Paths describe wher a file is on a computer like which folders you have to go through to get there. Absolute paths are the whole path while relative paths don't include the root.
 > FYI: The directory is the top of the path as it's a folder that's not contained in any other folder. 
 
-Go ahead and try any combo of these commands using different paths on your remote server!
+Go ahead and try any combo of these commands using different paths on your remote server by typing them in the terminal!
 
 Here's an example:
 
