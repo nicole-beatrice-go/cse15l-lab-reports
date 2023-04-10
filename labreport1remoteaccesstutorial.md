@@ -6,19 +6,9 @@ This will be a tutorial on how to log into an account on `ieng6`. Such fun!
 This means that you'll be able to connect to a computer in the CSE basement and run commands through it.
 
 This tutorial will be split up into 3 parts:
-1. Installing VS Code
-
-* This is the code editor that you will use and run commands on within its terminal
-
-
-2. Remotely Connecting
-
-* This is where you connect to a computer in the CSE basement
-
-
-3. Trying Commands
-
-* This is where you can run commands (can be on your own computer or the remote computer you're connected to) to navigate the FileSystem
+1. **Installing VS Code** (this is the code editor that you will use and run commands on within its terminal)
+2. **Remotely Connecting** (this is where you connect to a computer in the CSE basement)
+3. **Trying Commands** (this is where you can run commands (can be on your own computer or the remote computer you're connected to) to navigate the FileSystem)
 
 ---
 ## Installing VS Code
@@ -29,7 +19,7 @@ The version you install depends on what operating system you have, which depends
 
 This is the Visual Studio Code Website: [VS Website](https://code.visualstudio.com/). It has instructions on how to install VS Code and let's go through it together.
 
-1. Download VS Code
+* Download VS Code
 
 If you have a Mac, download the macOS version. If you have a PC, download the Windows version. The screen to download should look like this. 
 
@@ -40,7 +30,7 @@ If you have Windows, you simply just need to run the installer. Then, VS Code sh
 However, there are a couple more steps for Mac. 
 
 
-2. Find the app in Finder.
+* Find the app in Finder.
 
 Click on the browser download at the bottom of your screen. Then, you will see it in **Finder**.
 
@@ -51,7 +41,7 @@ If it is archived in a zip, simply double click on the zip to extract its conten
 ![Image](Screen%20Shot%202023-04-09%20at%204.18.40%20PM.png)
 
 
-3. Drag the app file to your **Applications** folder
+* Drag the app file to your **Applications** folder
 
 Hold down on the app file `Visual Studio Code.app` in your **Downloads** and drag it to the left toward your directory to drop it into your **Applications** folder. 
 
@@ -60,7 +50,7 @@ By doing this, VS Code will become visible on your **Launchpad**.
 ![Image](Screen%20Shot%202023-04-09%20at%204.26.03%20PM.png)
 
 
-4. Open VS Code
+* Open VS Code
 
 You can open VS Code by double clicking on its app icon in your **Applications** folder.
 
@@ -94,19 +84,19 @@ You can then reset your login info and password with these instructions.
 
 Here are the steps!
 
-1. If you have Windows, install `git` for Windows
+* If you have Windows, install `git` for Windows
 
 Git has useful tools we need for VS Code! You can use the following link to install it: [Git](https://gitforwindows.org/)
 
 Simply press the download button!
 
 
-2. Open a terminal in VS Code
+* Open a terminal in VS Code
 
 To do this, you can be on your VS Code window and go to the top to click Terminal, then New Terminal. You can also do a keyboard shortcut by doing `Ctrl + backtick`.
 
 
-3. Set your default terminal to `git bash` in VS Code
+* Set your default terminal to `git bash` in VS Code
 
 First, you must open the command palette by either pressing the search bar at the top or doing `Ctrl + Shift + P`. Then, type in "Select Default Profile" and select that.
 
@@ -121,13 +111,13 @@ Make sure that it is bash by looking at the + icon on the top right of your term
 ![Image](Screen%20Shot%202023-04-09%20at%205.32.22%20PM.png)
 
 
-4. In the terminal, write the following command except the "zz" is replaced by the last 2 characters of your CSE15L account:
+* In the terminal, write the following command except the "zz" is replaced by the last 2 characters of your CSE15L account:
 
 `$ ssh cs15lsp23zz@ieng6.ucsd.edu`
 
 > FYI: Don't type $, it's just convention to indicate that this is a command
 
-5. Respond `yes` once you get this message
+* Respond `yes` once you get this message
 
 ```
 ⤇ ssh cs15lsp23zz@ieng6.ucsd.edu
@@ -138,7 +128,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 > FYI: It's okay to say yes because it's a new server. But if you get this message to a server you go to a lot, then someone might be trying to get to your connection to the server.
 
-6. Enter your password for your CSE15L account
+* Enter your password for your CSE15L account
 
 > FYI: Your password won't show as you type it but it still works. 
 
