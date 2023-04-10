@@ -54,7 +54,7 @@ Hold down on the app file `Visual Studio Code.app` in your **Downloads** and dra
 
 By doing this, VS Code will become visible on your **Launchpad**.
 
-![Image](Screen%20Shot%202023-04-09%20at%204.26.03 PM.png)
+![Image](Screen%20Shot%202023-04-09%20at%204.26.03%20PM.png)
 
 
 4. Open VS Code
@@ -164,7 +164,7 @@ Go ahead and try any combo of these commands using different paths on your remot
 
 Here's an example:
 
-![Image](Screen%20Shot%202023-04-09%20at%206.13.28 PM.png)
+![Image](Screen%20Shot%202023-04-09%20at%206.13.28%20PM.png)
 
 Finally, to log out of the remote server, you can do the following:
 1. `Ctrl + D`
