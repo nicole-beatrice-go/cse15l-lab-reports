@@ -43,9 +43,9 @@ Click on the browser download at the bottom of your screen. Then, you will see i
 
 If it is archived in a zip, simply double click on the zip to extract its contents. 
 
-![Image](Screen&nbsp;Shot&nbsp;2023-04-09&nbsp;at&nbsp;4.16.29&nbsp;PM.png)
+![Image](Screen%20Shot%202023-04-09%20at%204.16.29%20PM.png)
 
-![Image](Screen Shot 2023-04-09 at 4.18.40 PM.png)
+![Image](Screen%20Shot%202023-04-09%20at%204.18.40%20PM.png)
 
 
 3. Drag the app file to your **Applications** folder
@@ -54,7 +54,7 @@ Hold down on the app file `Visual Studio Code.app` in your **Downloads** and dra
 
 By doing this, VS Code will become visible on your **Launchpad**.
 
-![Image](Screen Shot 2023-04-09 at 4.26.03 PM.png)
+![Image](Screen%20Shot%202023-04-09%20at%204.26.03 PM.png)
 
 
 4. Open VS Code
@@ -63,13 +63,13 @@ You can open VS Code by double clicking on its app icon in your **Applications**
 
 However, if you want to add VS Code to your Dock you can right-click on the icon (which will temperarily be in the Dock while opened) and choose **Options**, then **Keep in Dock**.
 
-![Image](Screen Shot 2023-04-09 at 4.28.01 PM.png)
+![Image](Screen%20Shot%202023-04-09%20at%204.28.01%20PM.png)
 
-![Image](Screen Shot 2023-04-09 at 4.30.24 PM.png)
+![Image](Screen%20Shot%202023-04-09%20at%204.30.24%20PM.png)
 
 
 This is what VS Code should look like once you open it. 
-![Image](Screen Shot 2023-04-09 at 5.47.26 PM.png)
+![Image](Screen%20Shot%202023-04-09%20at%205.47.26%20PM.png)
 
 
 Congrats! Now you have VS Code installed and can follow your coding dreams! Now on to the next step and connecting to a remote computer!
@@ -107,15 +107,15 @@ To do this, you can be on your VS Code window and go to the top to click Termina
 
 First, you must open the command palette by either pressing the search bar at the top or doing `Ctrl + Shift + P`. Then, type in "Select Default Profile" and select that.
 
-![Image](Screen Shot 2023-04-09 at 5.02.50 PM.png)
+![Image](Screen%20Shot%202023-04-09%20at%205.02.50%20PM.png)
 
 Then, select Git Bash.
 
-![Image](Screen Shot 2023-04-09 at 5.03.06 PM.png)
+![Image](Screen%20Shot%202023-04-09%20at%205.03.06%20PM.png)
 
 Make sure that it is bash by looking at the + icon on the top right of your terminal.
 
-![Image](Screen Shot 2023-04-09 at 5.32.22 PM.png)
+![Image](Screen%20Shot%202023-04-09%20at%205.32.22%20PM.png)
 
 
 4. In the terminal, write the following command except the "zz" is replaced by the last 2 characters of your CSE15L account:
@@ -141,7 +141,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 You should have a terminal that looks something like this afterwards
 
-![Image](Screen Shot 2023-04-09 at 5.48.02 PM.png)
+![Image](Screen%20Shot%202023-04-09%20at%205.48.02%20PM.png)
 
 This means that you're now connected to your remote computer! Yay! Now you can run commands!
 
@@ -164,7 +164,7 @@ Go ahead and try any combo of these commands using different paths on your remot
 
 Here's an example:
 
-![Image](Screen Shot 2023-04-09 at 6.13.28 PM.png)
+![Image](Screen%20Shot%202023-04-09%20at%206.13.28 PM.png)
 
 Finally, to log out of the remote server, you can do the following:
 1. `Ctrl + D`
