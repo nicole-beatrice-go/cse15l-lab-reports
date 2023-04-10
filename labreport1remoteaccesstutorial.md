@@ -9,11 +9,14 @@ This tutorial will be split up into 3 parts:
 1. Installing VS Code
 
 * This is the code editor that you will use and run commands on within its terminal
+
+
 2. Remotely Connecting
 
 * This is where you connect to a computer in the CSE basement
-3. Trying Commands
 
+
+3. Trying Commands
 
 * This is where you can run commands (can be on your own computer or the remote computer you're connected to) to navigate the FileSystem
 
