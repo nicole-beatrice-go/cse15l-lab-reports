@@ -159,7 +159,7 @@ Here's a brief rundown of what each command does:
 * `pwd` : (means print working directory) prints the current working directory and the abolsute path to get to it
 * `cd <path>` : (means change directory) switches from the current working directory to another given path
 
-> FYI: Paths describe wher a file is on a computer like which folders you have to go through to get there. Absolute paths are the whole path while relative paths don't include the root.
+> FYI: Paths describe where a file is on a computer like which folders you have to go through to get there. Absolute paths are the whole path while relative paths don't include the root.
 > FYI: The directory is the top of the path as it's a folder that's not contained in any other folder. 
 
 Go ahead and try any combo of these commands using different paths on your remote server by typing them in the terminal!
