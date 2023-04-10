@@ -143,10 +143,9 @@ You should have a terminal that looks something like this afterwards
 
 ![Image](Screen%20Shot%202023-04-09%20at%205.48.02%20PM.png)
 
-This means that you're now connected to your remote computer! Yay! Now you can run commands!
-
 > FYI: The computer you are currently on is the *client* while the remote computer you are conected to in the CSE basement is the *server*.
 
+This means that you're now connected to your remote computer! Yay! Now you can run commands!
 
 ---
 
