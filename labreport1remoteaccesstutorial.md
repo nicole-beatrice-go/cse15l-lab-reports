@@ -71,7 +71,7 @@ Congrats! Now you have VS Code installed and can follow your coding dreams! Now 
 ## Remotely Connecting
 Next, you will connect to a remote computer in the CSE basement. First, make sure that you have a CSE15L account using the account-lookup website:
 
-[CSE Account Lookuo](https://sdacs.ucsd.edu/~icc/index.php)
+[CSE Account Lookup](https://sdacs.ucsd.edu/~icc/index.php)
 
 You can then reset your login info and password with these instructions.
 
@@ -111,7 +111,7 @@ Make sure that it is bash by looking at the + icon on the top right of your term
 ![Image](Screen%20Shot%202023-04-09%20at%205.32.22%20PM.png)
 
 
-* In the terminal, write the following command except the "zz" is replaced by the last 2 characters of your CSE15L account:
+* In the terminal, write the following command except the "zz" is replaced by the last 2 characters at the end of your CSE15L account:
 
 `$ ssh cs15lsp23zz@ieng6.ucsd.edu`
 
