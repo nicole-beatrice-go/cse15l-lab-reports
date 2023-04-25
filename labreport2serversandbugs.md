@@ -193,7 +193,7 @@ static double averageWithoutLowest(double[] arr) {
   ```
   
 ---  
-##Part 3
+## Part 3
 I learned a lot these past 2 weeks. In Week 2, I learned a lot about servers and URLs. For one, I never even knew how to contruct code for a server until Lab 2 where the server updates its text based on the query in its URL. I also learned that I can reuse Server.java in order to create a URL and run the server and the general template of the NumberServer.java file where I'd only change how the server reacts to diferent queries that are put in the URL. I attaned a deeper understanding of what a URL is and hw URLHandler works in order to start a web server through Server.java. I even learned that a URL is a type of URI because a URI just identiies something by differentiating from others somehow with specific details, which a URL does. Finally in Lab 2, something cool I learned is that the on a remote server, the server updates even if you're adding different queries or reloading it on different computers. In Lab 3, I learned better debugging strategies (which I really need to work on) and how to use testers like assertEquals() in VS Code. 
 
 
