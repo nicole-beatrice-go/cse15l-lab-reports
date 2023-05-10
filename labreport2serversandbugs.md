@@ -137,7 +137,7 @@ public void testAverageWithoutLowest() {
   assertEquals(2.0, ArrayExamples.averageWithoutLowest(input1), 0.0);
 }
 ```
-> It should be noted that double assertEquals() test require a third argument, which is double delta and it's your desired difference between the first two arguments. If you want to check if they're equal, then the double delta value should be 0.0
+> It should be noted that `double assertEquals()` test require a third argument, which is `double` delta and it's your desired difference between the first two arguments. If you want to check if they're equal, then the `double delta` value should be `0.0`
 
 
 However, the following is an input that doesn't induce failure. 
