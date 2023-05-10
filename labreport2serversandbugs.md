@@ -136,13 +136,13 @@ public void testAverageWithoutLowest() {
   double[] input1 = {1.0, 1.0, 1.0, 1.0, 2.0};
   assertEquals(2.0, ArrayExamples.averageWithoutLowest(input1), 0.0);
 }
-```
+~~~
 > It should be noted that `double assertEquals()` test require a third argument, which is `double` delta and it's your desired difference between the first two arguments. If you want to check if they're equal, then the `double delta` value should be `0.0`
 
 
 However, the following is an input that doesn't induce failure. 
 It tests a double array where there are absolutely no duplicates, which wouldn't trigger any bugs:
-```
+~~~
 @Test
 public void testAverageWithoutLowest2() {
   double[] input2 = {1.0, 2.0, 3.0};
