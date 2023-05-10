@@ -3,7 +3,7 @@
 ## Part 1
 This is the code for StringServer.java, which holds is a web server StringServer that concatenates a new line and the string after `=` to the current string. It should return the entire string thus far:
 
-```
+~~~
 import java.io.IOException;
 import java.net.URI;
 
@@ -36,12 +36,12 @@ class StringServer {
         Server.start(port, new Handler());
     }
 }
-```
+~~~
 
 > It should also be noted that there is another file running alongside `StringServer.java`, which is `Server.java`, which is for all servers so that the server can be launched.
 
 
-```
+~~~
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.InetSocketAddress;
@@ -91,7 +91,7 @@ public class Server {
         System.out.println("Server Started! Visit http://localhost:" + port + " to visit.");
     }
 }
-```
+~~~
 
 
 This is an example of the output on the server using `/add-message` where `/add-message?s=Hello` runs twice. 
@@ -130,7 +130,7 @@ The bug from lab 3 that I will be choosing will be `averageWithoutLowest`, which
 
 The following is failure-inducing input that triggers a bug in the program formatting as a JUnit test.
 This shows a double array that has duplicates lowest values in it. It's supposed to exclude all of these duplicates but the bug is that it only excludes one of these lowest values, causing the mean to be wrong (because the mean would be higher and it would divide by a higher number since it counts more nuumbers):
-```
+~~~
 @Test
 public void testAverageWithoutLowest() {
   double[] input1 = {1.0, 1.0, 1.0, 1.0, 2.0};
@@ -148,14 +148,14 @@ public void testAverageWithoutLowest2() {
   double[] input2 = {1.0, 2.0, 3.0};
   assertEquals(2.5, ArrayExamples.averageWithoutLowest(input2), 0.0);
 }
-```
+~~~
 
 Here is the symptom (the output) of running these 2 tests.
 As shown, the 2 tests ran but only the test that didn't have duplicates passed while the one with duplicates failed:
 ![Tests](tests.png)
 
 This is the buggy code of `averageWithoutLowest` before it is fixed:
-```
+~~~
 static double averageWithoutLowest(double[] arr) {
   if(arr.length < 2) { return 0.0; }
   double lowest = arr[0];
@@ -168,11 +168,11 @@ static double averageWithoutLowest(double[] arr) {
   }
   return sum / (arr.length - 1);
 }
-```
+~~~
 
 Here is code of the fixed `averageWithoutLowest` program so that the bugs are debugged and it can deal with double arrays that hold duplicates.
 The bug was that it was still subtracting by `arr.length - 1` but when there are duplicates, it should divide by the number of elements that are in the array excluding the duplicates. In order to fix this, I created a new variable `numberToDivideBy` that adds 1 for each element in the array that isn't a duplicate of the lowest value. This would then be the number that the sum would be divided by:
-```
+~~~
 static double averageWithoutLowest(double[] arr) {
   if(arr.length < 2) { return 0.0; }
   double lowest = arr[0];
@@ -190,7 +190,7 @@ static double averageWithoutLowest(double[] arr) {
   }
   return sum / numberToDivideBy;
 }
-  ```
+  ~~~
   
 ---  
 ## Part 3
