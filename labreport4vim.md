@@ -4,20 +4,34 @@
 ### Log into ieng6
 ![Login](loginpic.png)
 1. `<Ctrl>`,`c` the `ssh` command for my ieng6 account from Notes App
+
+
 2. `<Ctrl>`,`v` into terminal: copy and pastes `ssh cs15lsp23ec@ieng6.ucsd.edu` into terminal
+
+
 3. `<enter>`: runs command to log into ieng6 account
 
 ### Clone your fork of the repository from your Github account
 ![Clone](git%20clone.png)
 1. `<Ctrl>`,`c` the `git clone` command from Lab 7 instructions
+
+
 2. `<Ctrl>`,`v` into terminal: copy and pastes `git clone https://github.com/ucsd-cse15l-s23/lab7`
+
+
 3. `<enter>`: runs command to clone lab7 repository
+
+
 
 ### Run the tests, demonstrating that they fail
 ![BadTestRun](test%20bad%20p1.png)
 ![BadTestRun2](test%20bad%20p2.png)
 1. `l`, `s`, `<enter>`: lists out components of student account
+
+
 2. `c`, `d`, `l`, `<tab>`, `<enter>`: changes directory to go into lab7
+
+
 3. `b`, `a`, `s`, `h`, `t`, `<tab>`, `<enter>`: runs `bash test.sh` to run test of `ListExamples.java`
 
 ### Edit the code file to fix the failing test
