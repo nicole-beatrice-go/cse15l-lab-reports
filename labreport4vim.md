@@ -8,7 +8,7 @@
 3. `<enter>`: runs command to log into ieng6 account
 
 ### Clone your fork of the repository from your Github account
-![Clone](git clone.png)
+![Clone](git20%clone.png)
 1. `<Ctrl>`,`c` the `git clone` command from Lab 7 instructions
 2. `<Ctrl>`,`v` into terminal: copy and pastes `git clone https://github.com/ucsd-cse15l-s23/lab7`
 3. `<enter>`: runs command to clone lab7 repository
