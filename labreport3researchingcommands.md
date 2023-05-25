@@ -10,15 +10,24 @@ Navigating `less` pages can involve doing `/<pattern>` to find a specific String
 
 Here are some interesting command-line options for `less`:
 1. `less -N <filename>`: shows line numbers for each line in the output
+
+
+
 Source: [Less Numbered Lines Command Source](https://linuxhandbook.com/less-command/)
 
 2. `less  -I <filename>`: to ignore case when searching through the file 
+
+
 Source: [Less Ignore Case Command Source](https://linuxhandbook.com/less-command/)
 
 3. `less +F <filename>`: shows new lines being added to the file in real time
+
+
 Source: [Less Real Time Change Command Source](https://linuxhandbook.com/less-command/)
 
 4. `<other command> | less`: pipes a command's output into less in order to manage the large output of that command
+
+
 Source: [Less Pipe Command Source](https://linuxhandbook.com/less-command/)
 
 ### `less -N <filename>`: shows line numbers for each line in the output
