@@ -1,4 +1,4 @@
-### Lab Report 3
+# Lab Report 3
 ## Researching Commands: `less`
 
 The command I will be using for interesting command-line options in this lab report will be `less`. `less` is a command that acts as a pager in order to view a file one page at a time. 
@@ -10,18 +10,18 @@ Navigating `less` pages can involve doing `/<pattern>` to find a specific String
 
 Here are some interesting command-line options for `less`:
 1. `less -N <filename>`: shows line numbers for each line in the output
-Source: https://linuxhandbook.com/less-command/
+Source: [Less Numbered Lines Command Source](https://linuxhandbook.com/less-command/)
 
 2. `less  -I <filename>`: to ignore case when searching through the file 
-Source: https://linuxhandbook.com/less-command/
+Source: [Less Ignore Case Command Source](https://linuxhandbook.com/less-command/)
 
 3. `less +F <filename>`: shows new lines being added to the file in real time
-Source: https://linuxhandbook.com/less-command/
+Source: [Less Real Time Change Command Source](https://linuxhandbook.com/less-command/)
 
 4. `<other command> | less`: pipes a command's output into less in order to manage the large output of that command
-Source: https://linuxhandbook.com/less-command/
+Source: [Less Pipe Command Source](https://linuxhandbook.com/less-command/)
 
-# `less -N <filename>`: shows line numbers for each line in the output
+### `less -N <filename>`: shows line numbers for each line in the output
 **Example 1: `preface.txt`**
 
 The code to put line numbers on this file would be: `less -N /Users/nicolego/Documents/GitHub/docsearch/technical/911report/preface.txt`
@@ -126,7 +126,7 @@ The output of this specific example would be:
 Sentences:
 This command would be useful for navigating a text with collaborators and pointing out a specific spot because then you'd all be able to go to a specifically listed out line number. 
 
-# `less  -I <filename>`: to ignore case when searching through the file
+### `less  -I <filename>`: to ignore case when searching through the file
 
 **Example 1: `pmed.0020275.txt`**
 
@@ -145,7 +145,7 @@ The output of this specific example would be (needs to be expressed as a screens
 
 Sentences: This could be useful for searching for a specific string you want in order to find informtion you want. Sometimes, it's annoying doing both uppercase and lowercase if you on't care about care sensitivity so this command would be useful then. 
 
-# `less +F <filename>`: shows new lines being added to the file in real time
+### `less +F <filename>`: shows new lines being added to the file in real time
 
 **Example 1: `A_Perk_of_Age.txt`**
 
@@ -235,10 +235,10 @@ here are some new changes
 Waiting for data... (interrupt to abort)
 ~~~
 
-Sentences: This could be useful in seeing what changes were made by the programmer or other users in comaprison to what the original file was as given by the instructor. For instance, the real time hanges could represents notes taken by students. 
+Sentences: This could be useful in seeing what changes were made by the programmer or other users in comaprison to what the original file was as given by the instructor. For instance, the real time changes could represents notes taken by students. 
 
 
-# `<other command> | less`: pipes a command's output into less in order to manage the large output of that command
+### `<other command> | less`: pipes a command's output into less in order to manage the large output of that command
 
 **Example 1: `AP_LawSchoolDebts.txt`**
 The code to show this pipe on this file using grep (find all lines with the word "school" in them) would be: `grep school /Users/nicolego/Documents/GitHub/docsearch/technical/government/Media/AP_LawSchoolDebts.txt | less`
