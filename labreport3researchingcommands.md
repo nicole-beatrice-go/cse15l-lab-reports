@@ -5,27 +5,26 @@ The command I will be using for interesting command-line options in this lab rep
 
 `less` can be used in the command-line in the format of `less <filename>` in order to page through that file. The `less` pages can be exited from by simply pressing `q`.
 
-The pages of `less` can also be navigated using `up arrow` to go a line up, `down arrow` to go a line down, `b` to go a page up, `space` to go a page down, `g` to go to the start, `G` to go to the end, and `ng` to go to a specific nth line.
-Navigating `less` pages can involve doing `/<pattern>` to find a specific String in the file (like Ctrl+F in a document). Marking lines can also by typing `m` and then a letter (it can be referred back to by typing `'` and then the same letter).
+The pages of `less` can also be navigated using `up arrow` to go a line up, `down arrow` to go a line down, `b` to go a page up, `space` to go a page down, `g` to go to the start, `G` to go to the end, and `ng` to go to a specific nth line. Navigating `less` pages can involve doing `/<pattern>` to find a specific String in the file (like Ctrl+F in a document). Marking lines can also by typing `m` and then a letter (it can be referred back to by typing `'` and then the same letter).
 
 Here are some interesting command-line options for `less`:
-1. `less -N <filename>`: shows line numbers for each line in the output
+- `less -N <filename>`: shows line numbers for each line in the output
 
 
 
 Source: [Less Numbered Lines Command Source](https://linuxhandbook.com/less-command/)
 
-2. `less  -I <filename>`: to ignore case when searching through the file 
+- `less  -I <filename>`: to ignore case when searching through the file 
 
 
 Source: [Less Ignore Case Command Source](https://linuxhandbook.com/less-command/)
 
-3. `less +F <filename>`: shows new lines being added to the file in real time
+- `less +F <filename>`: shows new lines being added to the file in real time
 
 
 Source: [Less Real Time Change Command Source](https://linuxhandbook.com/less-command/)
 
-4. `<other command> | less`: pipes a command's output into less in order to manage the large output of that command
+- `<other command> | less`: pipes a command's output into less in order to manage the large output of that command
 
 
 Source: [Less Pipe Command Source](https://linuxhandbook.com/less-command/)
