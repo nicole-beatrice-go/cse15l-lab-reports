@@ -1,4 +1,4 @@
-# Lab Report 5: Debbugging and Reflection
+# Lab Report 5: Debugging and Reflection
 ---
 ## Part 1: Debugging 
 
